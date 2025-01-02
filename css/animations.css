@@ -1,0 +1,53 @@
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes glow {
+  0% {
+    text-shadow: 0 0 10px rgba(0, 255, 157, 0.5);
+  }
+  50% {
+    text-shadow: 0 0 20px rgba(0, 255, 157, 0.8);
+  }
+  100% {
+    text-shadow: 0 0 10px rgba(0, 255, 157, 0.5);
+  }
+}
+
+.floating-title {
+  animation: float 6s ease-in-out infinite;
+}
+
+.glow-text {
+  animation: glow 3s ease-in-out infinite;
+}
+
+.line {
+  display: block;
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeInUp 0.8s forwards;
+}
+
+.line:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.line:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

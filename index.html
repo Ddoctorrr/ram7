@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RAM7 HydroFuel Technology</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/space.css">
+  <link rel="stylesheet" href="css/hero.css">
+  <link rel="stylesheet" href="css/technologies.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+  <!-- Space Background -->
+  <div id="spaceBackground"></div>
+
+  <!-- Content with space theme -->
+  <div class="content-overlay">
+    <!-- Navigation -->
+    <nav class="navbar space-nav">
+      <div class="nav-content">
+        <div class="nav-brand">
+          <img src="/logo.png" alt="RAM7 HydroFuel" class="brand-logo">
+        </div>
+        <div class="nav-links" id="navLinks">
+          <a href="index.html">Home</a>
+          <a href="about.html">About Us</a>
+          <a href="technology.html">Technology</a>
+          <a href="contact.html" class="active">Contact Us</a>
+        </div>
+        <button class="mobile-menu-btn" id="mobileMenuBtn">
+          <i data-lucide="menu"></i>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Floating Hero Section -->
+    <section class="hero-section" id="heroSection">
+      <div class="hero-content">
+        <h1 class="floating-title">
+          <span class="line">Revolutionary</span>
+          <span class="line">HydroFuel</span>
+          <span class="line accent-text">Technology</span>
+        </h1>
+        <p class="hero-subtitle">Transforming the future of energy with innovative hydrofuel solutions</p>
+        <button class="scroll-button" id="scrollButton">
+          Discover Our Technology
+          <i data-lucide="chevron-down" href="technology.html"></i>
+        </button>
+        <script>
+          document.getElementById("scrollButton").addEventListener("click", function () {
+            window.location.href = "technology.html";
+          });
+        </script>
+        
+      </div>
+    </section>
+
+    <!-- Technologies Section -->
+    <section class="technologies-section" id="technologiesSection">
+      <div class="container">
+        <h2 class="section-title glow-text">Our Technologies</h2>
+        <div class="ourtechnologiue">
+          <div class="card">
+            <i data-lucide="piggy-bank" class="card-icon"></i>
+            <h3>Lower cost of ownership</h3>
+            <p>Compared with regular diesel while providing better-maintained engines.</p>
+          </div>
+
+          <div class="card">
+            <i data-lucide="flame" class="card-icon"></i>
+            <h3>Increases thermal fuel efficiency</h3>
+            <p>Allows you to burn less total hydrocarbon fuel.</p>
+          </div>
+
+          <div class="card">
+            <i data-lucide="leaf" class="card-icon"></i>
+            <h3>Friendly green energy fuel</h3>
+            <p>Lower carbon intensity index (CI) and burns cleaner than diesel and biodiesel.</p>
+          </div>
+
+          <div class="card">
+            <i data-lucide="wind" class="card-icon"></i>
+            <h3>Reduces emissions</h3>
+            <p>CO₂, NOₓ, sulfur, particulate matter by up to 70%.</p>
+          </div>
+
+          <div class="card">
+            <i data-lucide="settings" class="card-icon"></i>
+            <h3>Less engine stress</h3>
+            <p>Wear & tear reduction with longer-lasting lube oil for diesel equipment.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="owner-section">
+      <div class="container">
+        <div class="owner-grid">
+          <div class="owner-content">
+            <span class="section-subtitle">Meet Our Founder</span>
+            <h2 class="section-title">Leading Innovation in Sustainable Energy</h2>
+            <p class="owner-description">
+              Dr. Sarah Chen, founder and CEO of EcoTech Solutions, brings over two decades of experience in sustainable energy innovation. With a Ph.D. in Environmental Engineering from MIT and numerous patents in eco-friendly oil processing technologies, she leads our mission to revolutionize the energy sector.
+            </p>
+            <div class="owner-stats">
+              <div class="stat-item">
+                <span class="stat-number">20+</span>
+                <span class="stat-label">Years Experience</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">15</span>
+                <span class="stat-label">Patents</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">40%</span>
+                <span class="stat-label">Emission Reduction</span>
+              </div>
+            </div>
+            <div class="owner-quote">
+              <i data-lucide="quote" class="quote-icon"></i>
+              <blockquote>
+                "Our commitment to sustainable energy isn't just about innovation—it's about creating a better future for generations to come."
+              </blockquote>
+            </div>
+          </div>
+          <div class="owner-image-container">
+            <div class="owner-image-wrapper">
+              <img 
+                src="https://th.bing.com/th/id/OIP.40QOxNpbQ_rKcwZ4idG58AAAAA?rs=1&pid=ImgDetMain" 
+                alt="Dr. Sarah Chen - Founder & CEO"
+                class="owner-image"
+              >
+              <div class="image-overlay"></div>
+            </div>
+            <!-- <div class="achievement-badges">
+              <div class="badge">
+                <i data-lucide="award" class="badge-icon"></i>
+                <span>Environmental Leadership Award 2023</span>
+              </div>
+              <div class="badge">
+                <i data-lucide="shield" class="badge-icon"></i>
+                <span>ISO 14001 Certified</span>
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-section">
+          <div class="footer-brand">
+            <img src="/logo.png" alt="RAM7 HydroFuel" class="footer-logo">
+          </div>
+          <p>Leading the way in hydrofuel technology innovation.</p>
+        </div>
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#technology">Technology</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Contact Us</h3>
+          <p>Email: info@ram7hydrofuel.com</p>
+          <p>Phone: (555) 123-4567</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="currentYear"></span> RAM7 HydroFuel Technology. All rights reserved.</p>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Scripts -->
+  <script type="module" src="js/main.js"></script>
+  <script>
+    lucide.createIcons();
+  </script>
+</body>
+</html>
