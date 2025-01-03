@@ -26,3 +26,53 @@
   transform: translateY(-5px);
   box-shadow: 0 10px 30px rgba(0, 255, 157, 0.1);
 }
+/* Enhanced Media Queries */
+@media (min-width: 1441px) {
+  .space-card {
+    padding: 2.5rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .space-card {
+    padding: 1.75rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .space-card {
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .space-card {
+    padding: 1.25rem;
+  }
+  
+  .space-card:hover {
+    transform: translateY(-3px);
+  }
+}
+
+@media (max-width: 480px) {
+  .space-card {
+    padding: 1rem;
+  }
+  
+  .space-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 255, 157, 0.1);
+  }
+}
+
+/* Reduce motion for users who prefer it */
+@media (prefers-reduced-motion: reduce) {
+  .space-card {
+    transition: none;
+  }
+  
+  .space-card:hover {
+    transform: none;
+  }
+}

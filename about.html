@@ -9,217 +9,219 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
   <script src="https://unpkg.com/lucide@latest"></script>
 </head>
-<body>
-   <!-- Navigation -->
-   <nav class="navbar">
-    <div class="nav-content">
-      <div class="nav-brand">
-        <img src="/logo.png" alt="RAM7 HydroFuel" class="brand-logo">
-      </div>
-      <div class="nav-links" id="navLinks">
-        <a href="index.html">Home</a>
-        <a href="about.html">About Us</a>
-        <a href="technology.html">Technology</a>
-        <a href="contact.html" class="active">Contact Us</a>
-      </div>
-      <button class="mobile-menu-btn" id="mobileMenuBtn">
-        <i data-lucide="menu"></i>
-      </button>
+    <body>
+    <!-- Navigation -->
+    <nav class="navbar space-nav">
+        <div class="nav-content">
+        <div class="nav-brand">
+            <img src="IMAGES/logo.png" alt="RAM7 HydroFuel" class="brand-logo">
+        </div>
+        <div class="nav-links" id="navLinks">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="technology.html">Technology</a>
+            <a href="contact.html" class="active">Contact Us</a>
+        </div>
+        <button class="mobile-menu-btn" id="mobileMenuBtn">
+            <i data-lucide="menu"></i>
+        </button>
+        </div>
+    </nav>
+
+
+    <div class="content-overlay">
+        <!-- Hero Section -->
+        <section class="about-hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <span class="hero-subtitle animate-fade-in">Our Story</span>
+            <h1 class="hero-title animate-fade-in animation-delay-200">
+            Innovating for a
+            <span>Sustainable Future</span>
+            </h1>
+        </div>
+        <div class="scroll-indicator">
+            <i data-lucide="chevron-down"></i>
+        </div>
+        
+        <!-- Stats Cards -->
+        <div class="stats-cards">
+            <div class="stats-card">
+            <span class="stats-number">15+</span>
+            <p class="stats-label">Countries Worldwide</p>
+            </div>
+            <div class="stats-card">
+            <span class="stats-number">40%</span>
+            <p class="stats-label">Emission Reduction</p>
+            </div>
+            <div class="stats-card">
+            <span class="stats-number">100+</span>
+            <p class="stats-label">Partner Companies</p>
+            </div>
+        </div>
+        </section>
+    <!-- Main Content -->
+    <div class="content-overlay">
+        <!-- Introduction Sections -->
+        <div class="about-container">
+        <!-- Who We Are Section -->
+        <section class="flex-container">
+            <div class="content-box">
+            <h1>Who We Are</h1>
+            <p>
+                <strong>AILABOUNI</strong> is revolutionizing the energy industry by creating clean, low emission fuel technologies that reduce operating costs and improve thermal efficiency. 
+                We're committed to creating fuel products and technologies that reduce the impact on our environment and contribute to energy transition.
+            </p>
+            </div>
+            <div class="image-box">
+            <img src="https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?w=800" alt="Our Vision" class="feature-image">
+            </div>
+        </section>
+
+        <!-- Global Leader Section -->
+        <section class="flex-container reverse">
+            <div class="content-box">
+            <h2>Global Leader</h2>
+            <p>
+                Our technologies benefit global communities by <strong>reducing the environmental & social impact of hydrocarbon fuels</strong>. 
+                Our RAM7 solution is the single most important and financially viable alternative fuel solution in the market.
+            </p>
+            </div>
+            <div class="image-box">
+            <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800" alt="Global Leadership" class="feature-image">
+            </div>
+        </section>
+
+        <!-- Clean Fuel Technology Section -->
+        <section class="flex-container">
+            <div class="content-box">
+            <h2>CLEAN FUEL TECHNOLOGY</h2>
+            <h3>Solving environmental and health matters</h3>
+            <p>
+                RAM7 HydroDiesel is a <strong>green, advanced fuel</strong> that is designed to significantly reduce emissions, extend the life of engines, and maximize performance, 
+                all while providing more value than regular diesel. At the core of RAM7 HydroDiesel is our unique technology, that forms a stable, long-term nano emulsion allowing 
+                water to mix with fuel oils creating greatly enhanced combustion.
+            </p>
+            </div>
+            <div class="image-box">
+            <img src="https://images.unsplash.com/photo-1501784023407-a55c33f55961?w=800" alt="Clean Fuel Technology" class="feature-image">
+            </div>
+        </section>
+
+        <!-- Mission Section -->
+        <section class="mission-section">
+            <div class="section-grid">
+            <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=800" alt="Space Technology" class="section-image">
+            <div class="section-content">
+                <h2 class="section-title">Our Mission</h2>
+                <p class="section-text">At RAM7 HydroFuel Technology, we're committed to revolutionizing the energy sector through innovative hydrofuel solutions. Our mission is to provide sustainable, efficient, and cost-effective fuel alternatives that reduce environmental impact while maintaining high performance standards.</p>
+                <p class="section-text">Through continuous research and development, we strive to push the boundaries of what's possible in clean energy technology, making a positive impact on both industry and environment.</p>
+            </div>
+            </div>
+        </section>
+
+        <!-- Values Section -->
+        <section class="mission-values">
+            <div class="value-card">
+            <i data-lucide="lightbulb" class="card-icon"></i>
+            <h3>Innovation</h3>
+            <p>Pushing boundaries and developing cutting-edge solutions for tomorrow's energy needs.</p>
+            </div>
+            <div class="value-card">
+            <i data-lucide="shield" class="card-icon"></i>
+            <h3>Sustainability</h3>
+            <p>Committed to environmental stewardship and reducing carbon footprint.</p>
+            </div>
+            <div class="value-card">
+            <i data-lucide="users" class="card-icon"></i>
+            <h3>Collaboration</h3>
+            <p>Working together with partners and communities to create lasting positive change.</p>
+            </div>
+        </section>
+
+        <!-- Team Section -->
+        <section class="team-section">
+            <h2 class="section-title" style="text-align: center; margin-bottom: 3rem;">Our Leadership Team</h2>
+            <div class="team-grid">
+            <div class="team-card">
+                <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=300" alt="John Smith" class="team-image">
+                <h3 class="team-name">John Smith</h3>
+                <p class="team-role">Chief Executive Officer</p>
+                <p>Leading our vision for sustainable energy solutions.</p>
+            </div>
+            <div class="team-card">
+                <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=300" alt="Sarah Johnson" class="team-image">
+                <h3 class="team-name">Sarah Johnson</h3>
+                <p class="team-role">Chief Technology Officer</p>
+                <p>Driving innovation in hydrofuel technology.</p>
+            </div>
+            <div class="team-card">
+                <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=300" alt="Michael Chen" class="team-image">
+                <h3 class="team-name">Michael Chen</h3>
+                <p class="team-role">Head of Research</p>
+                <p>Leading breakthrough research initiatives.</p>
+            </div>
+            </div>
+        </section>
+
+        <!-- Achievements Section -->
+        <section class="achievements">
+            <h2 class="section-title" style="text-align: center; margin-bottom: 3rem;">Our Achievements</h2>
+            <div class="achievement-grid">
+            <div class="achievement-card">
+                <span class="number">50+</span>
+                <p>Patents Filed</p>
+            </div>
+            <div class="achievement-card">
+                <span class="number">1M+</span>
+                <p>Tons CO₂ Reduced</p>
+            </div>
+            <div class="achievement-card">
+                <span class="number">200+</span>
+                <p>Research Papers</p>
+            </div>
+            <div class="achievement-card">
+                <span class="number">30+</span>
+                <p>Industry Awards</p>
+            </div>
+            </div>
+        </section>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+            <div class="footer-brand">
+                <img src="/logo.png" alt="RAM7 HydroFuel" class="footer-logo">
+            </div>
+            <p>Leading the way in hydrofuel technology innovation.</p>
+            </div>
+            <div class="footer-section">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#technology">Technology</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            </div>
+            <div class="footer-section">
+            <h3>Contact Us</h3>
+            <p>Email: info@ram7hydrofuel.com</p>
+            <p>Phone: (555) 123-4567</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; <span id="currentYear"></span> RAM7 HydroFuel Technology. All rights reserved.</p>
+        </div>
+        </footer>
     </div>
-  </nav>
 
-  <div class="content-overlay">
-    <!-- Hero Section -->
-    <section class="about-hero">
-      <div class="hero-overlay"></div>
-      <div class="hero-content">
-        <span class="hero-subtitle animate-fade-in">Our Story</span>
-        <h1 class="hero-title animate-fade-in animation-delay-200">
-          Innovating for a
-          <span>Sustainable Future</span>
-        </h1>
-      </div>
-      <div class="scroll-indicator">
-        <i data-lucide="chevron-down"></i>
-      </div>
-      
-      <!-- Stats Cards -->
-      <div class="stats-cards">
-        <div class="stats-card">
-          <span class="stats-number">15+</span>
-          <p class="stats-label">Countries Worldwide</p>
-        </div>
-        <div class="stats-card">
-          <span class="stats-number">40%</span>
-          <p class="stats-label">Emission Reduction</p>
-        </div>
-        <div class="stats-card">
-          <span class="stats-number">100+</span>
-          <p class="stats-label">Partner Companies</p>
-        </div>
-      </div>
-    </section>
-  <!-- Main Content -->
-  <div class="content-overlay">
-    <!-- Introduction Sections -->
-    <div class="about-container">
-      <!-- Who We Are Section -->
-      <section class="flex-container">
-        <div class="content-box">
-          <h1>Who We Are</h1>
-          <p>
-            <strong>AILABOUNI</strong> is revolutionizing the energy industry by creating clean, low emission fuel technologies that reduce operating costs and improve thermal efficiency. 
-            We're committed to creating fuel products and technologies that reduce the impact on our environment and contribute to energy transition.
-          </p>
-        </div>
-        <div class="image-box">
-          <img src="https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?w=800" alt="Our Vision" class="feature-image">
-        </div>
-      </section>
-
-      <!-- Global Leader Section -->
-      <section class="flex-container reverse">
-        <div class="content-box">
-          <h2>Global Leader</h2>
-          <p>
-            Our technologies benefit global communities by <strong>reducing the environmental & social impact of hydrocarbon fuels</strong>. 
-            Our RAM7 solution is the single most important and financially viable alternative fuel solution in the market.
-          </p>
-        </div>
-        <div class="image-box">
-          <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800" alt="Global Leadership" class="feature-image">
-        </div>
-      </section>
-
-      <!-- Clean Fuel Technology Section -->
-      <section class="flex-container">
-        <div class="content-box">
-          <h2>CLEAN FUEL TECHNOLOGY</h2>
-          <h3>Solving environmental and health matters</h3>
-          <p>
-            RAM7 HydroDiesel is a <strong>green, advanced fuel</strong> that is designed to significantly reduce emissions, extend the life of engines, and maximize performance, 
-            all while providing more value than regular diesel. At the core of RAM7 HydroDiesel is our unique technology, that forms a stable, long-term nano emulsion allowing 
-            water to mix with fuel oils creating greatly enhanced combustion.
-          </p>
-        </div>
-        <div class="image-box">
-          <img src="https://images.unsplash.com/photo-1501784023407-a55c33f55961?w=800" alt="Clean Fuel Technology" class="feature-image">
-        </div>
-      </section>
-
-      <!-- Mission Section -->
-      <section class="mission-section">
-        <div class="section-grid">
-          <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=800" alt="Space Technology" class="section-image">
-          <div class="section-content">
-            <h2 class="section-title">Our Mission</h2>
-            <p class="section-text">At RAM7 HydroFuel Technology, we're committed to revolutionizing the energy sector through innovative hydrofuel solutions. Our mission is to provide sustainable, efficient, and cost-effective fuel alternatives that reduce environmental impact while maintaining high performance standards.</p>
-            <p class="section-text">Through continuous research and development, we strive to push the boundaries of what's possible in clean energy technology, making a positive impact on both industry and environment.</p>
-          </div>
-        </div>
-      </section>
-
-      <!-- Values Section -->
-      <section class="mission-values">
-        <div class="value-card">
-          <i data-lucide="lightbulb" class="card-icon"></i>
-          <h3>Innovation</h3>
-          <p>Pushing boundaries and developing cutting-edge solutions for tomorrow's energy needs.</p>
-        </div>
-        <div class="value-card">
-          <i data-lucide="shield" class="card-icon"></i>
-          <h3>Sustainability</h3>
-          <p>Committed to environmental stewardship and reducing carbon footprint.</p>
-        </div>
-        <div class="value-card">
-          <i data-lucide="users" class="card-icon"></i>
-          <h3>Collaboration</h3>
-          <p>Working together with partners and communities to create lasting positive change.</p>
-        </div>
-      </section>
-
-      <!-- Team Section -->
-      <section class="team-section">
-        <h2 class="section-title" style="text-align: center; margin-bottom: 3rem;">Our Leadership Team</h2>
-        <div class="team-grid">
-          <div class="team-card">
-            <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=300" alt="John Smith" class="team-image">
-            <h3 class="team-name">John Smith</h3>
-            <p class="team-role">Chief Executive Officer</p>
-            <p>Leading our vision for sustainable energy solutions.</p>
-          </div>
-          <div class="team-card">
-            <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=300" alt="Sarah Johnson" class="team-image">
-            <h3 class="team-name">Sarah Johnson</h3>
-            <p class="team-role">Chief Technology Officer</p>
-            <p>Driving innovation in hydrofuel technology.</p>
-          </div>
-          <div class="team-card">
-            <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=300" alt="Michael Chen" class="team-image">
-            <h3 class="team-name">Michael Chen</h3>
-            <p class="team-role">Head of Research</p>
-            <p>Leading breakthrough research initiatives.</p>
-          </div>
-        </div>
-      </section>
-
-      <!-- Achievements Section -->
-      <section class="achievements">
-        <h2 class="section-title" style="text-align: center; margin-bottom: 3rem;">Our Achievements</h2>
-        <div class="achievement-grid">
-          <div class="achievement-card">
-            <span class="number">50+</span>
-            <p>Patents Filed</p>
-          </div>
-          <div class="achievement-card">
-            <span class="number">1M+</span>
-            <p>Tons CO₂ Reduced</p>
-          </div>
-          <div class="achievement-card">
-            <span class="number">200+</span>
-            <p>Research Papers</p>
-          </div>
-          <div class="achievement-card">
-            <span class="number">30+</span>
-            <p>Industry Awards</p>
-          </div>
-        </div>
-      </section>
-    </div>
-
-    <!-- Footer -->
-    <footer class="footer">
-      <div class="footer-content">
-        <div class="footer-section">
-          <div class="footer-brand">
-            <img src="/logo.png" alt="RAM7 HydroFuel" class="footer-logo">
-          </div>
-          <p>Leading the way in hydrofuel technology innovation.</p>
-        </div>
-        <div class="footer-section">
-          <h3>Quick Links</h3>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="#technology">Technology</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div>
-        <div class="footer-section">
-          <h3>Contact Us</h3>
-          <p>Email: info@ram7hydrofuel.com</p>
-          <p>Phone: (555) 123-4567</p>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        <p>&copy; <span id="currentYear"></span> RAM7 HydroFuel Technology. All rights reserved.</p>
-      </div>
-    </footer>
-  </div>
-
-  <!-- Scripts -->
-  <script>
-    lucide.createIcons();
-    document.getElementById('currentYear').textContent = new Date().getFullYear();
-  </script>
+    <!-- Scripts -->
+    <script type="module" src="js/main.js"></script>
+    <script>
+        lucide.createIcons();
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
 </body>
 </html>

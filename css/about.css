@@ -402,3 +402,242 @@
       grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     }
   }
+/* Enhanced Media Queries */
+@media (min-width: 1441px) {
+  .hero-title {
+    font-size: 5rem;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.8rem;
+  }
+  
+  .stats-cards {
+    max-width: 1200px;
+  }
+  
+  .stats-number {
+    font-size: 3rem;
+  }
+  
+  .content-box {
+    padding: 3rem;
+  }
+  
+  .team-image {
+    width: 180px;
+    height: 180px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .hero-title {
+    font-size: 3.5rem;
+  }
+  
+  .stats-cards {
+    width: 95%;
+  }
+  
+  .section-grid {
+    gap: 3rem;
+  }
+  
+  .team-grid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+}
+
+@media (max-width: 992px) {
+  .hero-title {
+    font-size: 3rem;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.3rem;
+  }
+  
+  .stats-cards {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+  }
+  
+  .stats-card {
+    padding: 1.5rem;
+  }
+  
+  .mission-values {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+  
+  .value-card {
+    padding: 1.75rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-hero {
+    height: auto;
+    min-height: 100vh;
+    padding: 6rem 1.5rem 8rem;
+  }
+  
+  .hero-title {
+    font-size: 2.5rem;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.2rem;
+  }
+  
+  .stats-cards {
+    position: relative;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin-top: 2rem;
+    width: 100%;
+  }
+  
+  .stats-card {
+    margin-bottom: 0;
+  }
+  
+  .flex-container {
+    flex-direction: column;
+    gap: 2rem;
+    margin: 3rem 0;
+  }
+  
+  .content-box {
+    padding: 1.5rem;
+  }
+  
+  .section-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  .section-image {
+    height: 250px;
+  }
+  
+  .team-card {
+    padding: 1.5rem;
+  }
+  
+  .team-image {
+    width: 120px;
+    height: 120px;
+  }
+  
+  .achievement-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  
+  .achievement-card {
+    padding: 1.5rem;
+  }
+  
+  .achievement-card .number {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-hero {
+    padding: 5rem 1rem 7rem;
+  }
+  
+  .hero-title {
+    font-size: 2rem;
+  }
+  
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+  
+  .stats-card {
+    padding: 1.25rem;
+  }
+  
+  .stats-number {
+    font-size: 2rem;
+  }
+  
+  .content-box {
+    padding: 1rem;
+  }
+  
+  .value-card {
+    padding: 1.25rem;
+  }
+  
+  .card-icon {
+    width: 36px;
+    height: 36px;
+  }
+  
+  .team-grid {
+    gap: 1.25rem;
+  }
+  
+  .team-card {
+    padding: 1.25rem;
+  }
+  
+  .team-image {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 1rem;
+  }
+  
+  .achievement-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .achievement-card {
+    padding: 1.25rem;
+  }
+}
+
+/* Landscape orientation adjustments */
+@media (max-height: 600px) and (orientation: landscape) {
+  .about-hero {
+    height: auto;
+    min-height: 100vh;
+    padding: 5rem 1rem;
+  }
+  
+  .stats-cards {
+    position: relative;
+    margin-top: 2rem;
+  }
+}
+
+/* Reduce motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  .stats-card,
+  .value-card,
+  .team-card,
+  .achievement-card {
+    transition: none;
+  }
+  
+  .stats-card:hover,
+  .value-card:hover,
+  .team-card:hover,
+  .achievement-card:hover {
+    transform: none;
+  }
+  
+  .scroll-indicator {
+    animation: none;
+  }
+  
+  .animate-fade-in {
+    animation: none;
+    opacity: 1;
+    transform: none;
+  }
+}
